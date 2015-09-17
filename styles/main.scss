@@ -5,12 +5,28 @@ header {
 	background-color: $primary-color;
 }
 
+.cover_photo {
+	text-align: center;
+	.avatar {
+		height: 14em;
+
+		margin: 2em auto;
+		border-radius: 50%;
+	}
+}
+
 .action {
-	height: 13em;
+	height: 10em;
 	.action-button {
 		margin: 0 auto;
-		margin-top: 7em;
-
+		margin-top: 2em;
+		width: 27em;
+		height: 2em;
+		text-align: center;
+		line-height: 2em;
+		background-color: $primary-color-light;
+		font-weight: bold;
+		color: $secondary-text-color;
 	}
 }
 

@@ -10,6 +10,7 @@ header {
 	.action-button {
 		margin: 0 auto;
 		margin-top: 7em;
+
 	}
 }
 
@@ -43,7 +44,26 @@ header {
 }
 
 .books {
-	height: 9em;
+	p {
+		font-wight: normal;
+		text-align: center;
+		color: $secondary-text-color;
+		margin: 2em;
+	}
+
+	.book {
+		@media (min-width: 600px) {
+			width: 33.3%;
+			float: left;
+		}
+
+		.cover {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 2em;
+			width: 70%;
+		}
+	}
 }
 
 footer {

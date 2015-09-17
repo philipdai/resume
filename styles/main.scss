@@ -1,0 +1,52 @@
+@import 'common';
+
+header {
+	height: 5em;
+	background-color: $primary-color;
+}
+
+.action {
+	height: 13em;
+	.action-button {
+		margin: 0 auto;
+		margin-top: 7em;
+	}
+}
+
+.haoduo {
+	height: 14em;
+	background-color: $primary-color;
+	h2 {
+		color: $primary-color-text;
+		text-align: center;
+		font-weight: normal;
+		margin-top: 2em;
+	}
+
+	p {
+		text-align: center;
+		color: $primary-color-text;
+		opacity: .7;
+	}
+
+	a.visit-my-github {
+		display: block;
+		width: 12em;
+		text-align: center;
+		padding: .8em;
+		margin: 1.5em auto;
+		font-size: 0.8em;
+		color: $primary-color-text;
+		background-color: $primary-color-dark;
+		border-radius: 1em;
+	}
+}
+
+.books {
+	height: 9em;
+}
+
+footer {
+	height: 5em;
+	background-color: #212121;
+}

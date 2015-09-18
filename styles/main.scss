@@ -9,7 +9,6 @@ header {
 	text-align: center;
 	.avatar {
 		height: 14em;
-
 		margin: 2em auto;
 		border-radius: 50%;
 	}
@@ -20,13 +19,14 @@ header {
 	.action-button {
 		margin: 0 auto;
 		margin-top: 2em;
+		border-radius: 1em;
 		width: 22em;
 		height: 2em;
 		text-align: center;
 		line-height: 2em;
-		background-color: $primary-color-light;
+		background-color: $primary-color-dark;
 		font-weight: bold;
-		color: $secondary-text-color;
+		color: $primary-color-text;
 	}
 }
 
@@ -54,7 +54,7 @@ header {
 		margin: 1.5em auto;
 		font-size: 0.8em;
 		color: $primary-color-text;
-		background-color: $primary-color-dark;
+		background-color: $accent-color;
 		border-radius: 1em;
 	}
 }

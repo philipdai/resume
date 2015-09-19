@@ -9,4 +9,4 @@ var Action = React.createClass({
 	  }
 	});
 
-	ReactDOM.render(<Action />, document.getElementById("action"));
+ReactDOM.render(<Action />, document.getElementById("action"));

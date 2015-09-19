@@ -5,15 +5,16 @@
 	<title>Cen Dai</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://cdn.bootcss.com/react/0.14.0-rc1/react.js"></script>
+	<script src="http://cdn.bootcss.com/react/0.14.0-rc1/react-dom.min.js"></script>
+	<script src="http://cdn.bootcss.com/react/0.14.0-beta3/JSXTransformer.js"></script>
 </head>
 <body>
 	<header></header>
 	<div class="cover_photo">
 		<img src="images/my_photo.jpg" alt="Philip's photo" class="avatar">
 	</div>
-	<div class="action clearfix">
-		<a href="#" class="action-button button">This guy has few photos, but a lot of skills.</a>
-	</div>
+	<div id="action"></div>
 	<div class="haoduo clearfix">
 		<h2>Hello world, I'm Philip Dai!</h2>
 		<p>Glad to share stories with you guys here.</p>
@@ -32,5 +33,20 @@
 			</div>
 	</div>
 	<footer></footer>
+
+	<script type="text/jsx">
+	var Action = React.createClass({
+	  render: function() {
+	    return (
+
+	      <div className="action clearfix">
+	        <a href="#" className="action-button button">This guy has few photos, but a lot of skills.</a>
+	      </div>
+	    );
+	  }
+	});
+
+	ReactDOM.render(<Action />, document.getElementById("action"));
+	</script>
 </body>
 </html>

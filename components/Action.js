@@ -8,4 +8,3 @@ var Action = React.createClass({
 	  }
 	});
 
-ReactDOM.render(<Action />, document.getElementById("action"));

@@ -17,4 +17,3 @@ var Books = React.createClass({
   }
 });
 
-ReactDOM.render(<Books />, document.getElementById("books"));

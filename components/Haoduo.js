@@ -10,4 +10,3 @@ var Haoduo = React.createClass({
   }
 });
 
-ReactDOM.render(<Haoduo />, document.getElementById("haoduo"));

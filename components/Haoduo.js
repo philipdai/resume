@@ -1,3 +1,5 @@
+var React = require("react");
+
 var Haoduo = React.createClass({
   render: function() {
     return (
@@ -9,4 +11,7 @@ var Haoduo = React.createClass({
     );
   }
 });
+
+module.exports = Haoduo;
+
 

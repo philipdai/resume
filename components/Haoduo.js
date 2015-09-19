@@ -1,4 +1,4 @@
-var NewComponent = React.createClass({
+var Haoduo = React.createClass({
   render: function() {
     return (
       <div className="haoduo clearfix">
@@ -10,4 +10,4 @@ var NewComponent = React.createClass({
   }
 });
 
-ReactDOM.render(<Action />, document.getElementById("haoduo"));
+ReactDOM.render(<Haoduo />, document.getElementById("haoduo"));

@@ -1,7 +1,6 @@
-var NewComponent = React.createClass({
+var Books = React.createClass({
   render: function() {
     return (
-
       <div className="books clearfix">
         <p>Below are the books I read recently.</p>
         <div className="book">
@@ -18,4 +17,4 @@ var NewComponent = React.createClass({
   }
 });
 
-ReactDOM.render(<Action />, document.getElementById("books"));
+ReactDOM.render(<Books />, document.getElementById("books"));

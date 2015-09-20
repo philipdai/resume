@@ -1,11 +1,11 @@
 var React = require("react");
-var SearchButton = require('./SearchButton.js');
+var Button = require('./Button.js');
 
 var Action = React.createClass({
 	  render: function() {
 	    return (
 	      <div className="action clearfix">
-					<SearchButton />
+					<Button text={"This guys has few photos, but many skills."}/>
 	      </div>
 	    );
 	  }

@@ -2,16 +2,11 @@
   color: red;
   text-align: center;
 
-  p {
-    font-wight: normal;
-    text-align: center;
-    color: $secondary-text-color;
-    margin: 2em;
-  }
 
   .social-method {
     width: 33.3%;
     float: left;
+    height: 3em;
     .social-icon {
       margin: 0 auto;
       margin-bottom: 2em;

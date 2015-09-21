@@ -18234,7 +18234,7 @@
 			return React.createElement(
 				"div",
 				{ className: "action shake shake-constant clearfix" },
-				React.createElement(Button, { text: "This guys has few photos, but many skills.", isOrange: true })
+				React.createElement(Button, { text: "This guys has few photos, but many skills.", isBlue: true })
 			);
 		}
 	});

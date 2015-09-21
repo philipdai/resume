@@ -18233,7 +18233,7 @@
 		render: function render() {
 			return React.createElement(
 				"div",
-				{ className: "action shake shake-little clearfix" },
+				{ className: "action shake shake-slow clearfix" },
 				React.createElement(Button, { text: "This guys has few photos, but many skills.", isBlue: true })
 			);
 		}

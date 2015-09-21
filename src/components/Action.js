@@ -5,7 +5,7 @@ var Action = React.createClass({
 	  render: function() {
 	    return (
 	      <div className="action shake shake-slow clearfix">
-					<Button text={"This guys is a very funny. :)"} isBlue={true}/>
+					<Button text={"This guys is very funny. :)"} isBlue={true}/>
 	      </div>
 	    );
 	  }

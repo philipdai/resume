@@ -1,0 +1,7 @@
+@import "cover_photo";
+@import "social";
+
+header {
+  height: 20em;
+  background-color: lighten($primary-color-dark, 10%);
+}

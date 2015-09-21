@@ -1,19 +1,6 @@
-@import 'common';
+@import "common";
+@import "../components/Header/index";
 @import "action";
-
-header {
-	height: 5em;
-	background-color: $primary-color;
-}
-
-.cover_photo {
-	text-align: center;
-	.avatar {
-		height: 14em;
-		margin: 2em auto;
-		border-radius: 50%;
-	}
-}
 
 .haoduo {
 	height: 14em;
@@ -29,6 +16,7 @@ header {
 		text-align: center;
 		color: $primary-color-text;
 		opacity: .7;
+	  	margin: 2em auto;
 	}
 
 	a.visit-my-github {
@@ -36,7 +24,7 @@ header {
 		width: 12em;
 		text-align: center;
 		padding: .8em;
-		margin: 1.5em auto;
+		margin: 2.5em auto;
 		font-size: 0.8em;
 		color: $primary-color-text;
 		background-color: $accent-color;
@@ -49,7 +37,7 @@ header {
 		font-wight: normal;
 		text-align: center;
 		color: $secondary-text-color;
-		margin: 2em;
+		margin: 0.5em;
 	}
 
 	.book {
